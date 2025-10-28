@@ -270,7 +270,9 @@
     "xorg-xauth",
     "xorg-xeyes",
     "libomxil-bellagio",
-    "clinfo"
+    "clinfo",
+    "libayatana-appindicator",
+    "libcurl-gnutls"
   ],
 
   "CopyFiles_Stage0_CMT": [
