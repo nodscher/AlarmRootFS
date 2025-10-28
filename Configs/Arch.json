@@ -272,7 +272,8 @@
     "libomxil-bellagio",
     "clinfo",
     "libayatana-appindicator",
-    "libcurl-gnutls"
+    "libcurl-gnutls",
+    "mesa"
   ],
 
   "CopyFiles_Stage0_CMT": [
