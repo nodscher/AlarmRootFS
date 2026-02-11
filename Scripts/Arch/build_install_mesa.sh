@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd /root
-pacman --noconfirm -S \
+pacman --disable-sandbox --noconfirm -S \
   git \
   ninja \
   clang \

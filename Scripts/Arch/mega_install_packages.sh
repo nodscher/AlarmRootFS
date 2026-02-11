@@ -1,7 +1,7 @@
 #!/bin/sh
 for i in $@
 do
-  if [ -z "$(pacman -Ss ^$i\$ 2>/dev/null)" ]; then
+  if [ -z "$(pacman --disable-sandbox -Ss ^$i\$ 2>/dev/null)" ]; then
     echo " > Package $i not available on repo."
     echo "Package Not Found: $i" >> /Unknown_Packages
   else
@@ -12,4 +12,4 @@ done
 
 echo "$packages" #you could comment this.
 cat /Unknown_Packages
-pacman --noconfirm -S $packages
+pacman --disable-sandbox --noconfirm -S $packages
