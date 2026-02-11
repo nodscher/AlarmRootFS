@@ -273,7 +273,8 @@
     "clinfo",
     "libayatana-appindicator",
     "libcurl-gnutls",
-    "mesa"
+    "mesa",
+    "libdisplay-info"
   ],
 
   "CopyFiles_Stage0_CMT": [
